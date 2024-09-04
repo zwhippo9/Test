@@ -1,0 +1,6 @@
+run = "Serenity"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "Serenity"]
